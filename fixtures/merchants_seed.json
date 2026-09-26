@@ -1,0 +1,156 @@
+{
+ "merchants": [
+  {
+   "merchant_id": "m_001_drmeera",
+   "category_slug": "dentists",
+   "identity": {
+    "name": "Dr. Meera's Dental Clinic",
+    "city": "Delhi",
+    "locality": "Lajpat Nagar",
+    "place_id": "ChIJ_x",
+    "verified": true,
+    "languages": [
+     "en",
+     "hi"
+    ],
+    "owner_first_name": "Meera"
+   },
+   "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 82
+   },
+   "performance": {
+    "window_days": 30,
+    "views": 2410,
+    "calls": 18,
+    "directions": 45,
+    "ctr": 0.021,
+    "delta_7d": {
+     "views_pct": 0.18,
+     "calls_pct": -0.05
+    }
+   },
+   "offers": [
+    {
+     "id": "o1",
+     "title": "Dental Cleaning @ ₹299",
+     "status": "active"
+    },
+    {
+     "id": "o2",
+     "title": "Deep Cleaning @ ₹499",
+     "status": "expired"
+    }
+   ],
+   "conversation_history": [
+    {
+     "ts": "2026-04-24T10:00:00Z",
+     "from": "vera",
+     "body": "...",
+     "engagement": "merchant_replied"
+    }
+   ],
+   "customer_aggregate": {
+    "total_unique_ytd": 540,
+    "lapsed_180d_plus": 78,
+    "retention_6mo_pct": 0.38
+   },
+   "signals": [
+    "stale_posts:22d",
+    "ctr_below_peer_median",
+    "high_risk_adult_cohort"
+   ],
+   "available_slots": [
+    "2026-11-05T11:00:00+05:30",
+    "2026-11-07T10:00:00+05:30",
+    "2026-11-05T17:00:00+05:30",
+    "2026-11-04T18:00:00+05:30"
+   ]
+  },
+  {
+   "merchant_id": "m_002_studio11",
+   "category_slug": "salons",
+   "identity": {
+    "name": "Studio11 Family Salon",
+    "city": "Hyderabad",
+    "locality": "Kukatpally",
+    "verified": true,
+    "languages": [
+     "en"
+    ],
+    "owner_first_name": "Ravi"
+   },
+   "subscription": {
+    "status": "active",
+    "plan": "Basic",
+    "days_remaining": 20
+   },
+   "performance": {
+    "window_days": 30,
+    "views": 5120,
+    "calls": 64,
+    "directions": 120,
+    "ctr": 0.036,
+    "delta_7d": {
+     "views_pct": 0.28,
+     "calls_pct": 0.04
+    }
+   },
+   "offers": [
+    {
+     "id": "o3",
+     "title": "Haircut @ ₹149",
+     "status": "active"
+    }
+   ],
+   "conversation_history": [],
+   "customer_aggregate": {
+    "total_unique_ytd": 1900,
+    "lapsed_180d_plus": 310,
+    "retention_6mo_pct": 0.44
+   },
+   "signals": [
+    "stale_posts:9d"
+   ]
+  },
+  {
+   "merchant_id": "m_003_smilecare",
+   "category_slug": "dentists",
+   "identity": {
+    "name": "SmileCare Dental",
+    "city": "Delhi",
+    "locality": "Rohini",
+    "verified": false,
+    "languages": [
+     "en"
+    ]
+   },
+   "subscription": {
+    "status": "trial",
+    "plan": "Trial",
+    "days_remaining": 6
+   },
+   "performance": {
+    "window_days": 30,
+    "views": 640,
+    "calls": 3,
+    "ctr": 0.034
+   },
+   "offers": [],
+   "conversation_history": [],
+   "customer_aggregate": {},
+   "signals": [],
+   "search_keywords": [
+    {
+     "keyword": "teeth cleaning",
+     "count": 85
+    },
+    {
+     "keyword": "dental check up",
+     "count": 190
+    }
+   ]
+  }
+ ]
+}

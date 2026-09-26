@@ -1,0 +1,105 @@
+{
+ "customers": [
+  {
+   "customer_id": "c_001_priya",
+   "merchant_id": "m_001_drmeera",
+   "identity": {
+    "name": "Priya",
+    "phone_redacted": "<phone>",
+    "language_pref": "hi-en mix"
+   },
+   "relationship": {
+    "first_visit": "2025-11-04",
+    "last_visit": "2026-05-12",
+    "visits_total": 4,
+    "services_received": [
+     "cleaning",
+     "cleaning",
+     "whitening",
+     "cleaning"
+    ]
+   },
+   "state": "lapsed_soft",
+   "preferences": {
+    "preferred_slots": "weekday_evening",
+    "channel": "whatsapp"
+   },
+   "consent": {
+    "opted_in_at": "2025-11-04",
+    "scope": [
+     "recall_reminders",
+     "appointment_reminders"
+    ]
+   }
+  },
+  {
+   "customer_id": "c_002_rohit",
+   "merchant_id": "m_001_drmeera",
+   "identity": {
+    "name": "Rohit Sharma",
+    "language_pref": "en"
+   },
+   "relationship": {
+    "first_visit": "2024-02-10",
+    "last_visit": "2025-08-03",
+    "visits_total": 2,
+    "services_received": [
+     "root canal",
+     "cleaning"
+    ]
+   },
+   "state": "lapsed_hard",
+   "preferences": {
+    "preferred_slots": "weekend_morning"
+   },
+   "consent": {
+    "opted_in_at": "2024-02-10",
+    "scope": [
+     "appointment_reminders"
+    ]
+   }
+  },
+  {
+   "customer_id": "c_003_ananya",
+   "merchant_id": "m_002_studio11",
+   "identity": {
+    "name": "Ananya",
+    "language_pref": "en"
+   },
+   "relationship": {
+    "last_visit": "2026-09-01",
+    "visits_total": 7,
+    "services_received": [
+     "hair spa",
+     "haircut",
+     "haircut"
+    ]
+   },
+   "state": "active",
+   "preferences": {
+    "preferred_slots": "weekend"
+   },
+   "consent": {
+    "opted_in_at": "2025-01-15",
+    "scope": [
+     "appointment_reminders"
+    ]
+   }
+  },
+  {
+   "customer_id": "c_004_karan",
+   "merchant_id": "m_003_smilecare",
+   "identity": {
+    "name": "Karan",
+    "language_pref": "en"
+   },
+   "relationship": {
+    "last_visit": "2026-03-02",
+    "services_received": [
+     "scaling"
+    ]
+   },
+   "state": "lapsed_soft"
+  }
+ ]
+}

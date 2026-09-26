@@ -1,0 +1,103 @@
+{
+ "pairs": [
+  {
+   "test_id": "T01",
+   "merchant_id": "m_001_drmeera",
+   "trigger_id": "trg_001_research_meera"
+  },
+  {
+   "test_id": "T02",
+   "merchant_id": "m_001_drmeera",
+   "trigger_id": "trg_002_perfdip_meera"
+  },
+  {
+   "test_id": "T03",
+   "merchant_id": "m_001_drmeera",
+   "trigger_id": "trg_003_competitor_meera"
+  },
+  {
+   "test_id": "T04",
+   "merchant_id": "m_002_studio11",
+   "trigger_id": "trg_004_diwali_studio11"
+  },
+  {
+   "test_id": "T05",
+   "merchant_id": "m_002_studio11",
+   "trigger_id": "trg_005_spike_studio11"
+  },
+  {
+   "test_id": "T06",
+   "merchant_id": "m_002_studio11",
+   "trigger_id": "trg_006_reviews_studio11"
+  },
+  {
+   "test_id": "T07",
+   "merchant_id": "m_002_studio11",
+   "trigger_id": "trg_007_dormant_studio11"
+  },
+  {
+   "test_id": "T08",
+   "merchant_id": "m_001_drmeera",
+   "trigger_id": "trg_008_reg_meera"
+  },
+  {
+   "test_id": "T09",
+   "merchant_id": "m_002_studio11",
+   "trigger_id": "trg_009_ipl_studio11"
+  },
+  {
+   "test_id": "T10",
+   "merchant_id": "m_001_drmeera",
+   "trigger_id": "trg_010_expired_meera"
+  },
+  {
+   "test_id": "T11",
+   "merchant_id": "m_001_drmeera",
+   "trigger_id": "trg_012_trend_meera"
+  },
+  {
+   "test_id": "T12",
+   "merchant_id": "m_002_studio11",
+   "trigger_id": "trg_013_milestone_studio11"
+  },
+  {
+   "test_id": "T13",
+   "merchant_id": "m_003_smilecare",
+   "trigger_id": "trg_014_dip_smilecare"
+  },
+  {
+   "test_id": "T14",
+   "merchant_id": "m_003_smilecare",
+   "trigger_id": "trg_015_thin_smilecare"
+  },
+  {
+   "test_id": "T15",
+   "merchant_id": "m_001_drmeera",
+   "trigger_id": "trg_011_recall_priya",
+   "customer_id": "c_001_priya"
+  },
+  {
+   "test_id": "T16",
+   "merchant_id": "m_001_drmeera",
+   "trigger_id": "trg_016_winback_rohit",
+   "customer_id": "c_002_rohit"
+  },
+  {
+   "test_id": "T17",
+   "merchant_id": "m_002_studio11",
+   "trigger_id": "trg_017_appt_ananya",
+   "customer_id": "c_003_ananya"
+  },
+  {
+   "test_id": "T18",
+   "merchant_id": "m_003_smilecare",
+   "trigger_id": "trg_018_recall_karan",
+   "customer_id": "c_004_karan"
+  },
+  {
+   "test_id": "T19",
+   "merchant_id": "m_003_smilecare",
+   "trigger_id": "trg_019_search_smilecare"
+  }
+ ]
+}

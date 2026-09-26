@@ -1,0 +1,79 @@
+{
+ "slug": "dentists",
+ "offer_catalog": [
+  {
+   "title": "Dental Cleaning @ ₹299",
+   "value": "299",
+   "audience": "new_user"
+  },
+  {
+   "title": "Free Consultation",
+   "value": "0",
+   "audience": "new_user"
+  },
+  {
+   "title": "Teeth Whitening @ ₹1,499",
+   "value": "1499",
+   "audience": "all"
+  }
+ ],
+ "voice": {
+  "tone": "peer_clinical",
+  "vocab_allowed": [
+   "fluoride varnish",
+   "caries",
+   "recall"
+  ],
+  "taboos": [
+   "cure",
+   "guaranteed",
+   "painless"
+  ]
+ },
+ "peer_stats": {
+  "avg_rating": 4.4,
+  "avg_reviews": 62,
+  "avg_ctr": 0.03,
+  "scope": "delhi_solo_practices"
+ },
+ "digest": [
+  {
+   "id": "d_2026W17_jida_fluoride",
+   "kind": "research",
+   "title": "3-month fluoride recall cut caries recurrence 38% more than 6-month recall",
+   "source": "JIDA Oct 2026, p.14",
+   "trial_n": 2100,
+   "patient_segment": "high_risk_adults",
+   "summary": "..."
+  },
+  {
+   "id": "d_2026W17_dci_xray",
+   "kind": "compliance",
+   "title": "DCI revised the radiograph dose-logging requirement for IOPA X-rays",
+   "source": "DCI circular, Apr 2026",
+   "effective_date": "1 Jun 2026",
+   "summary": "..."
+  }
+ ],
+ "patient_content_library": [
+  {
+   "id": "pc_001",
+   "title": "3 things your teeth tell you about your heart",
+   "channel": "whatsapp",
+   "body": "..."
+  }
+ ],
+ "seasonal_beats": [
+  {
+   "month_range": "Nov-Feb",
+   "note": "exam-stress bruxism spike"
+  }
+ ],
+ "trend_signals": [
+  {
+   "query": "clear aligners delhi",
+   "delta_yoy": 0.62,
+   "segment_age": "28-45"
+  }
+ ]
+}

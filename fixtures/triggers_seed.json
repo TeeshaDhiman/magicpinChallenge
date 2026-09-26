@@ -1,0 +1,268 @@
+{
+ "triggers": [
+  {
+   "id": "trg_001_research_meera",
+   "scope": "merchant",
+   "kind": "research_digest",
+   "source": "external",
+   "merchant_id": "m_001_drmeera",
+   "customer_id": null,
+   "payload": {
+    "category": "dentists",
+    "top_item_id": "d_2026W17_jida_fluoride"
+   },
+   "urgency": 2,
+   "suppression_key": "research:dentists:2026-W17:m_001",
+   "expires_at": "2026-05-03T00:00:00Z"
+  },
+  {
+   "id": "trg_002_perfdip_meera",
+   "scope": "merchant",
+   "kind": "perf_dip",
+   "source": "internal",
+   "merchant_id": "m_001_drmeera",
+   "payload": {
+    "metric": "calls",
+    "delta_pct": -0.4,
+    "window": "7d"
+   },
+   "urgency": 4,
+   "suppression_key": "perf_dip:m_001:2026-W17",
+   "expires_at": "2026-04-29T00:00:00Z"
+  },
+  {
+   "id": "trg_003_competitor_meera",
+   "scope": "merchant",
+   "kind": "competitor_opened",
+   "source": "external",
+   "merchant_id": "m_001_drmeera",
+   "payload": {
+    "distance_km": 1.3
+   },
+   "urgency": 2,
+   "suppression_key": "competitor:m_001:2026-04",
+   "expires_at": "2026-05-10T00:00:00Z"
+  },
+  {
+   "id": "trg_004_diwali_studio11",
+   "scope": "merchant",
+   "kind": "festival_upcoming",
+   "source": "external",
+   "merchant_id": "m_002_studio11",
+   "payload": {
+    "festival": "Diwali",
+    "days_until": 4
+   },
+   "urgency": 3,
+   "suppression_key": "festival:diwali:m_002",
+   "expires_at": "2026-11-10T00:00:00Z"
+  },
+  {
+   "id": "trg_005_spike_studio11",
+   "scope": "merchant",
+   "kind": "perf_spike",
+   "source": "internal",
+   "merchant_id": "m_002_studio11",
+   "payload": {
+    "metric": "views",
+    "delta_pct": 0.28,
+    "window": "yesterday"
+   },
+   "urgency": 2,
+   "suppression_key": "perf_spike:m_002:2026-04-26",
+   "expires_at": "2026-04-28T00:00:00Z"
+  },
+  {
+   "id": "trg_006_reviews_studio11",
+   "scope": "merchant",
+   "kind": "review_theme_emerged",
+   "source": "internal",
+   "merchant_id": "m_002_studio11",
+   "payload": {
+    "theme": "wait time",
+    "count": 3
+   },
+   "urgency": 2,
+   "suppression_key": "reviews:m_002:wait",
+   "expires_at": "2026-05-03T00:00:00Z"
+  },
+  {
+   "id": "trg_007_dormant_studio11",
+   "scope": "merchant",
+   "kind": "dormant_with_vera",
+   "source": "internal",
+   "merchant_id": "m_002_studio11",
+   "payload": {
+    "days_since_last_message": 14
+   },
+   "urgency": 1,
+   "suppression_key": "dormant:m_002",
+   "expires_at": "2026-05-03T00:00:00Z"
+  },
+  {
+   "id": "trg_008_reg_meera",
+   "scope": "merchant",
+   "kind": "regulation_change",
+   "source": "external",
+   "merchant_id": "m_001_drmeera",
+   "payload": {
+    "top_item_id": "d_2026W17_dci_xray"
+   },
+   "urgency": 3,
+   "suppression_key": "reg:dci_xray:m_001",
+   "expires_at": "2026-06-01T00:00:00Z"
+  },
+  {
+   "id": "trg_009_ipl_studio11",
+   "scope": "merchant",
+   "kind": "ipl_match_today",
+   "source": "external",
+   "merchant_id": "m_002_studio11",
+   "payload": {
+    "headline": "SRH vs MI at Uppal stadium tonight, 7:30pm"
+   },
+   "urgency": 1,
+   "suppression_key": "ipl:m_002:2026-04-26",
+   "expires_at": "2026-04-27T00:00:00Z"
+  },
+  {
+   "id": "trg_010_expired_meera",
+   "scope": "merchant",
+   "kind": "perf_spike",
+   "source": "internal",
+   "merchant_id": "m_001_drmeera",
+   "payload": {
+    "metric": "views",
+    "delta_pct": 0.3
+   },
+   "urgency": 5,
+   "suppression_key": "expired:m_001",
+   "expires_at": "2026-04-01T00:00:00Z"
+  },
+  {
+   "id": "trg_012_trend_meera",
+   "scope": "merchant",
+   "kind": "category_trend_movement",
+   "source": "external",
+   "merchant_id": "m_001_drmeera",
+   "payload": {
+    "query": "clear aligners delhi",
+    "delta_yoy": 0.62
+   },
+   "urgency": 2,
+   "suppression_key": "trend:aligners:m_001",
+   "expires_at": "2026-05-10T00:00:00Z"
+  },
+  {
+   "id": "trg_013_milestone_studio11",
+   "scope": "merchant",
+   "kind": "milestone_reached",
+   "source": "internal",
+   "merchant_id": "m_002_studio11",
+   "payload": {
+    "metric": "reviews",
+    "value": 300
+   },
+   "urgency": 2,
+   "suppression_key": "milestone:m_002:300",
+   "expires_at": "2026-05-10T00:00:00Z"
+  },
+  {
+   "id": "trg_014_dip_smilecare",
+   "scope": "merchant",
+   "kind": "perf_dip",
+   "source": "internal",
+   "merchant_id": "m_003_smilecare",
+   "payload": {
+    "metric": "views",
+    "delta_pct": -0.22,
+    "window": "7d"
+   },
+   "urgency": 3,
+   "suppression_key": "perf_dip:m_003",
+   "expires_at": "2026-05-01T00:00:00Z"
+  },
+  {
+   "id": "trg_015_thin_smilecare",
+   "scope": "merchant",
+   "kind": "festival_upcoming",
+   "source": "external",
+   "merchant_id": "m_003_smilecare",
+   "payload": {},
+   "urgency": 2,
+   "suppression_key": "thin:m_003",
+   "expires_at": "2026-05-01T00:00:00Z"
+  },
+  {
+   "id": "trg_011_recall_priya",
+   "scope": "customer",
+   "kind": "recall_due",
+   "source": "internal",
+   "merchant_id": "m_001_drmeera",
+   "customer_id": "c_001_priya",
+   "payload": {
+    "recall_interval_months": 6,
+    "as_of": "2026-10-20"
+   },
+   "urgency": 3,
+   "suppression_key": "recall:c_001:2026-10",
+   "expires_at": "2026-12-01T00:00:00Z"
+  },
+  {
+   "id": "trg_016_winback_rohit",
+   "scope": "customer",
+   "kind": "customer_lapsed_hard",
+   "source": "internal",
+   "merchant_id": "m_001_drmeera",
+   "customer_id": "c_002_rohit",
+   "payload": {},
+   "urgency": 2,
+   "suppression_key": "winback:c_002",
+   "expires_at": "2026-12-01T00:00:00Z"
+  },
+  {
+   "id": "trg_017_appt_ananya",
+   "scope": "customer",
+   "kind": "appointment_tomorrow",
+   "source": "internal",
+   "merchant_id": "m_002_studio11",
+   "customer_id": "c_003_ananya",
+   "payload": {
+    "appointment_time": "2026-10-24T11:30:00+05:30",
+    "service": "hair spa"
+   },
+   "urgency": 4,
+   "suppression_key": "appt:c_003:2026-10-24",
+   "expires_at": "2026-10-25T00:00:00Z"
+  },
+  {
+   "id": "trg_018_recall_karan",
+   "scope": "customer",
+   "kind": "customer_lapsed_soft",
+   "source": "internal",
+   "merchant_id": "m_003_smilecare",
+   "customer_id": "c_004_karan",
+   "payload": {
+    "merchant_id": "m_003_smilecare"
+   },
+   "urgency": 2,
+   "suppression_key": "recall:c_004",
+   "expires_at": "2026-12-01T00:00:00Z"
+  },
+  {
+   "id": "trg_019_search_smilecare",
+   "scope": "merchant",
+   "kind": "category_trend_movement",
+   "source": "internal",
+   "merchant_id": "m_003_smilecare",
+   "payload": {
+    "query": "dental check up",
+    "searches": 190,
+    "locality": "Rohini"
+   },
+   "urgency": 2,
+   "suppression_key": "search:m_003:dental_check_up",
+   "expires_at": "2026-12-01T00:00:00Z"
+  }
+ ]
+}

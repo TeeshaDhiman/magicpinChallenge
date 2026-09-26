@@ -1,0 +1,27 @@
+{
+ "slug": "salons",
+ "offer_catalog": [
+  {
+   "title": "Haircut @ ₹99"
+  },
+  {
+   "title": "Hair Spa @ ₹499"
+  }
+ ],
+ "voice": {
+  "tone": "warm_practical",
+  "vocab_taboo": [
+   "cheapest",
+   "guaranteed"
+  ]
+ },
+ "peer_stats": {
+  "avg_rating": 4.5,
+  "avg_reviews": 180,
+  "avg_ctr": 0.041
+ },
+ "digest": [],
+ "patient_content_library": [],
+ "seasonal_beats": [],
+ "trend_signals": []
+}

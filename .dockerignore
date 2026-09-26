@@ -1,0 +1,5 @@
+tests
+fixtures
+__pycache__
+.pytest_cache
+*.zip
